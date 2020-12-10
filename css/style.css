@@ -1,0 +1,32 @@
+@import url('../node_modules/select2/dist/css/select2.min.css');
+@import url('components/weather_container.css');
+@import url('components/city_input_form.css');
+
+body {
+	font-family: 'Luckiest Guy', cursive, sans-serif;
+	/*background-color: rgba(150, 150, 180, 0.1);	*/
+	margin: 0;
+	height: 100vh;
+	background-image: url("../pictures/weather.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	/*background-color: rgba(150, 150, 180, 0.1);*/
+	margin: 0;
+	padding: 30px 0;
+	color: red;
+	transition: 1.3s ease;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	/*background-color: rgba(150, 150, 180, 0.1);*/
+	height: 100%;
+	margin: 0;
+}

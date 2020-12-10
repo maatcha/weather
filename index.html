@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>What the weather like ?</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+		<link rel="stylesheet" href="node_modules/select2/dist/css/select2.css">
+
+	<!-- 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+	</head>
+	<body>
+		<h1>Weather in the entire world</h1>
+		<div class="wrapper">
+			<form action="#">
+				<select id="city-input" class="select2"></select>
+				<input type="submit" id="submit-button" value="What's the weather like ?">
+			</form>
+			<div class="weather-wrapper">
+				<div class="weather-container ">
+				</div>
+			</div>
+		</div>
+	
+		<script src="node_modules/jquery/dist/jquery.js"></script>
+		<script src="node_modules/select2/dist/js/select2.min.js"></script>
+		<script src="src/index.js" type="module"></script>
+	</body>
+</html>

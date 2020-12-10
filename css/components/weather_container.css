@@ -1,0 +1,60 @@
+.weather-container {
+	position: relative;
+	box-shadow: 2px 2px 5px #888;
+	height: 50vh;
+	width: 80vw;
+	background: linear-gradient(140deg, lightyellow 20%, lightblue 80%, rgb(20, 198, 229) 100%);
+	opacity: 0.7;
+}
+
+.weather-city-name {
+	position: absolute;
+	top: 10vh;
+	left: 5vw;
+	font-size: 26px;
+}
+
+.weather-icon {
+	position: absolute;
+	top: 16vh;
+	left: 4vw;
+}
+
+.weather-temp {
+	position: absolute;
+	top: 35vh;
+	left: 5vw;
+	font-size: 22px;
+}
+
+.weather-description {
+	position: absolute;
+	top: 39vh;
+	left: 5vw;
+	font-size: 18px;
+}
+
+.weather-date {
+	position: absolute;
+	top: 10vh;
+	right: 5vh;
+	font-size: 18px;
+}
+
+.weather-time {
+	position: absolute;
+	top: 15vh;
+	left: 5vw;
+}
+
+.weather-temp-max {
+	position: absolute;
+	top: 35vh;
+	right: 5vh;
+}
+
+.weather-temp-min {
+	position: absolute;
+	top: 39vh;
+	right: 5vh;
+}

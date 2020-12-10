@@ -1,0 +1,22 @@
+#city-input {
+	width: 20vw;
+	padding: 10px 15px;
+}
+
+#submit-button {
+	padding: 5px 10px;
+	border-radius: 8px;
+	margin-left: 20px;
+	box-shadow: none;
+	border: 2px solid lightblue;
+	background: lightblue;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#submit-button:hover {
+	background-color: white;
+	opacity: 0.8;
+	color: lightblue;
+}
